@@ -1,0 +1,11 @@
+E:\Source\Repos\Project Orochi\Orochi.Core\bin\Debug\Orochi.Core.dll
+E:\Source\Repos\Project Orochi\Orochi.Core\bin\Debug\Orochi.Core.pdb
+E:\Source\Repos\Project Orochi\Orochi.Core\bin\Debug\dnlib.dll
+E:\Source\Repos\Project Orochi\Orochi.Core\bin\Debug\dnlib.xml
+E:\Source\Repos\Project Orochi\Orochi.Core\obj\Debug\Orochi.Core.csprojAssemblyReference.cache
+E:\Source\Repos\Project Orochi\Orochi.Core\obj\Debug\Orochi.Core.csproj.CoreCompileInputs.cache
+E:\Source\Repos\Project Orochi\Orochi.Core\obj\Debug\Orochi.Core.csproj.CopyComplete
+E:\Source\Repos\Project Orochi\Orochi.Core\obj\Debug\Orochi.Core.dll
+E:\Source\Repos\Project Orochi\Orochi.Core\obj\Debug\Orochi.Core.pdb
+E:\Source\Repos\Project Orochi\Debug\Orochi.Core.dll
+E:\Source\Repos\Project Orochi\Debug\Orochi.Core.pdb

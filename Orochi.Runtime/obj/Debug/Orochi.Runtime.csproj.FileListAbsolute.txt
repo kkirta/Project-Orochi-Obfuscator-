@@ -1,0 +1,7 @@
+E:\Source\Repos\Project Orochi\Debug\Orochi.Runtime.dll
+E:\Source\Repos\Project Orochi\Debug\Orochi.Runtime.pdb
+E:\Source\Repos\Project Orochi\Orochi.Runtime\obj\Debug\Orochi.Runtime.csprojAssemblyReference.cache
+E:\Source\Repos\Project Orochi\Orochi.Runtime\obj\Debug\Orochi.Runtime.csproj.CoreCompileInputs.cache
+E:\Source\Repos\Project Orochi\Orochi.Runtime\obj\Debug\Orochi.Runtime.dll
+E:\Source\Repos\Project Orochi\Orochi.Runtime\obj\Debug\Orochi.Runtime.pdb
+E:\Source\Repos\Project Orochi\Orochi.Runtime\obj\Debug\Orochi.Runtime.csproj.CopyComplete

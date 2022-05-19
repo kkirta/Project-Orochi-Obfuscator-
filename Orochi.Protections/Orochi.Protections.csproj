@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF8AAF8B-C563-4A9F-8D15-1A99F5B93178}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Orochi.Protections</RootNamespace>
+    <AssemblyName>Orochi.Protections</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dnlib, Version=3.5.0.0, Culture=neutral, PublicKeyToken=50e96378b6e77999, processorArchitecture=MSIL">
+      <HintPath>..\packages\dnlib.3.5.0\lib\net45\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Orochi.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Debug\Orochi.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Orochi.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Debug\Orochi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntiDe4dot.cs" />
+    <Compile Include="AntiTamper.cs" />
+    <Compile Include="JunkAdder.cs" />
+    <Compile Include="Mutation\Arithmetic\ArithmeticEmulator.cs" />
+    <Compile Include="Mutation\Arithmetic\ArithmeticTypes.cs" />
+    <Compile Include="Mutation\Arithmetic\ArithmeticVT.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Add.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Div.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Abs.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Ceiling.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Cos.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Floor.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Log.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Log10.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Round.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Sin.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Sqrt.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Tan.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Tanh.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Math\Truncate.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Mul.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Sub.cs" />
+    <Compile Include="Mutation\Arithmetic\Functions\Xor.cs" />
+    <Compile Include="Mutation\Arithmetic\Structures\iArithmetic.cs" />
+    <Compile Include="Mutation\Arithmetic\Structures\iFunction.cs" />
+    <Compile Include="Mutation\Arithmetic\Structures\Token.cs" />
+    <Compile Include="Mutation\Arithmetic\Structures\Value.cs" />
+    <Compile Include="Mutation\Arithmetic\Utils\ArithmeticUtils.cs" />
+    <Compile Include="Mutation\Arithmetic\Utils\Generator.cs" />
+    <Compile Include="Mutation\IntMath\IntMathProtection.cs" />
+    <Compile Include="Mutation\IntMath\INTMHelper.cs" />
+    <Compile Include="Mutation\MutationProtection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renamer.cs" />
+    <Compile Include="StringEncryption.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,6 +1,9 @@
 # Project Orochi
 .NET Obfuscator which contains bugs and context support. Name gotten from a ship on the anime "Azur Lane".
 
+![alt text](https://i.hizliresim.com/auk08x3.jpg)
+
+(drag and drop executable to main form for loading it)
 # About Name
 Orochi ship is made by Sakura Empire faction. Not gonna lie, I am not an Sakura Empire fan but this is the only name I could get from the anime.
 
@@ -8,10 +11,10 @@ Orochi ship is made by Sakura Empire faction. Not gonna lie, I am not an Sakura 
 Yeah, there is some bugs in Orochi. You could fix them yourself. Feel free to send a pull request when you fix them.
 
 # Goals
-Adding a some type custom jit.
+Adding a some type of jit protection.
 
 # Building
-If you gives errors in first-time building, do not care it. Try to build again. It should build succesfully. Do not forget to add dnlib reference to all projects.
+If it gives errors in first-time building, do not mind it. Try to build again. It should build successfully. Do not forget to add dnlib reference to all projects.
 
 # Suspicious Mutations Protection
 Yes, It is some kind of suspect. I know some people from Reverse X will swear me and try to threat/treat me.

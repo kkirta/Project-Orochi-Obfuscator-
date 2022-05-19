@@ -18,7 +18,6 @@ If it gives errors in first-time building, do not mind it. Try to build again. I
 
 # Suspicious Mutations Protection
 Yes, It is some kind of suspect. I know some people from Reverse X will swear me and try to threat/treat me.
-By the way, this is not the reason why I disabled my discord account.
 
 # Thanks to:
 user76 for helping me on some problems.

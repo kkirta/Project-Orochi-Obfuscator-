@@ -14,10 +14,7 @@ Yeah, there is some bugs in Orochi. You could fix them yourself. Feel free to se
 Adding a some type of jit protection.
 
 # Building
-If it gives errors in first-time building, do not mind it. Try to build again. It should build successfully. Do not forget to add dnlib reference to all projects.
-
-# Suspicious Mutations Protection
-Yes, It is some kind of suspect. I know some people from Reverse X will swear me and try to threat/treat me.
+If it gives errors in first-time building, do not mind it. Try to build again. It should build successfully. Do not forget to add dnlib reference to all projects
 
 # Thanks to:
 user76 for helping me on some problems.
